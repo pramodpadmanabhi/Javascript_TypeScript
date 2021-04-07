@@ -1,8 +1,11 @@
 ```
+const userChosenKeyName='level' ------------------------> Dynamic Property Access & Setting Properties Dynamically
+
 let person={
 'first name':Pramod,  -----------------------------------------> Special Key Notation
  age:20,
  hobbies:['Sports','drawing'],
+ [userChosenKeyName]:'...', ---------------------------> Dynamic Property Access & Setting Properties Dynamically
  greet:function(){
  alert("Hi There")
  },
